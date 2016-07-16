@@ -18,79 +18,45 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/MyCustomBtnStyle"
         android:text="Popular Movies"
         android:id="@+id/button"
-        android:background="@color/colorPrimaryDark"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="16dp" />
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView"/>
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/MyCustomBtnStyle"
         android:text="Stock Hawk"
         android:id="@+id/button2"
         android:layout_marginTop="45dp"
-        android:background="@color/colorPrimaryDark"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="16dp" />
+        android:layout_below="@+id/button"/>
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/MyCustomBtnStyle"
         android:text="Build it Bigger"
         android:id="@+id/button3"
         android:layout_marginTop="45dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="16dp"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_below="@+id/button2" />
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/MyCustomBtnStyle"
         android:text="Make Your App Material"
         android:id="@+id/button4"
         android:layout_marginTop="45dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="16dp"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_below="@+id/button3" />
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/MyCustomBtnStyle"
         android:text="Go Ubiquitous"
         android:id="@+id/button5"
         android:layout_marginTop="45dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="16dp"
-        android:layout_below="@+id/button4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/button4" />
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/MyCustomBtnStyle"
         android:text="Capstone"
         android:id="@+id/button6"
         android:layout_marginTop="45dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="16dp"
-        android:layout_below="@+id/button5"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_below="@+id/button5"/>
 
 </RelativeLayout>

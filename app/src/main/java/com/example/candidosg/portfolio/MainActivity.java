@@ -22,54 +22,11 @@ public class MainActivity extends AppCompatActivity {
         Button button4 = (Button) findViewById(R.id.button4);
         Button button5 = (Button) findViewById(R.id.button5);
         Button button6 = (Button) findViewById(R.id.button6);
+    }
 
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                // Do something in response to button click
-                Toast toast = Toast.makeText(getApplicationContext(), "This button will launch my popular movies", duration);
-                toast.show();
-            }
-        });
-
-        button2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                // Do something in response to button click
-                Toast toast = Toast.makeText(getApplicationContext(), "This button will launch my stock hawk", duration);
-                toast.show();
-            }
-        });
-
-        button3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                // Do something in response to button click
-                Toast toast = Toast.makeText(getApplicationContext(), "This button will launch my build it bigger", duration);
-                toast.show();
-            }
-        });
-
-        button4.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                // Do something in response to button click
-                Toast toast = Toast.makeText(getApplicationContext(), "This button will launch my make your app material", duration);
-                toast.show();
-            }
-        });
-
-        button5.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                // Do something in response to button click
-                Toast toast = Toast.makeText(getApplicationContext(), "This button will launch my go ubiquitous", duration);
-                toast.show();
-            }
-        });
-
-        button6.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                // Do something in response to button click
-                Toast toast = Toast.makeText(getApplicationContext(), "This button will launch my go ubiquitous", duration);
-                toast.show();
-            }
-        });
+    public void onButtonClick(View view) {
+        String message = "This button will launch my " + ((Button)view).getText() + " project";
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
 }
